@@ -20,9 +20,6 @@ if st.button("Construir Histograma"):
 
 # Botón para construir un gráfico de dispersión
 if st.button("Construir Scatter Plot"):
-    st.write("Gráfico de dispersión: Poder de Bateria vs Watts Mobile")
-    if 'battery_power' in vehicles_data.columns and 'mobile_wt' in vehicles_data.columns:
-        fig2 = px.scatter(vehicles_data, x='battery_power', y='mobile_wt', title='Poder de la Bateria vs Watts')
-        st.plotly_chart(fig2, use_container_width=True)
-    else:
-        st.write("Las columnas necesarias para el scatter plot no están disponibles.")
+    st.write("Creando Dispersion")
+    fig = px.scatter(vehicles_data, x="odometer", y="price") # crear un gráfico de dispersión
+    fig.show() # crear gráfico de dispersión
