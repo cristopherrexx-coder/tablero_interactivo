@@ -1,4 +1,4 @@
-Vehículos
+Estudio de Vehículos
 
 Este proyecto tiene como objetivo poner en práctica tareas habituales de ingeniería de software y análisis de datos. Se ha trabajado un conjunto de datos de anuncios de venta de coches (en este caso, se utiliza `train.csv` como dataset) y se ha desarrollado una aplicación web con Streamlit que permite visualizar un histograma y un gráfico de dispersión interactivos.
 
