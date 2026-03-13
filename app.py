@@ -18,8 +18,11 @@ if st.button("Construir Histograma"):
     fig.show()
     st.plotly_chart(fig, use_container_width=True)
 
-# Botón para construir un gráfico de dispersión
-if st.button("Construir Scatter Plot"):
+# Botón para construir un garfico de dispersión
+create_disp_button = st.button("Crear dispercion")
+# Funcionalidad del botón para construir un gráfico de dispersión
+if create_disp_button:
     st.write("Creando Dispersion")
-    fig = px.scatter(vehicles_data, x="odometer", y="price") # crear un gráfico de dispersión
+    fig = px.scatter(vehicles_data, x="odometer", y="price", title= "Scatter plot de Precios") # crear un gráfico de dispersión
     fig.show() # crear gráfico de dispersión
+    st.plotly_chart(fig, use_container_width=True)
