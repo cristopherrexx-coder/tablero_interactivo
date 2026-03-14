@@ -9,3 +9,5 @@ Este proyecto tiene como objetivo poner en práctica tareas habituales de ingeni
 - Botón para generar un histograma (por ejemplo, de la columna `odometer`).
 
 - Botón para generar un gráfico de dispersión (por ejemplo, relacionando `odometer` y `price`).
+
+URL: https://tablero-interactivo.onrender.com/
