@@ -10,7 +10,7 @@ st.header("Análisis Exploratorio de Datos de Vehículos")
 
 # Botón para construir un histograma
 if st.button("Construir Histograma"):
-    st.write("Construyendo Histograma'")
+    st.write("Construyendo Histograma")
     if 'clock_speed' in vehicles_data.columns:
         st.write("Columna 'clock_speed'")
         fig = px.histogram(vehicles_data, x='clock_speed', title='Histograma de Velocidad del Reloj')
